@@ -57,18 +57,29 @@
     <hr>
     <p>8-</p>
     <form>
-        <input type="text" name="Nome:" size="20"/>
-        <input type="radio" name="Sexo" value="M"/>
-        <label for="M">M</label>
-        <input type="radio" name="Sexo" value="F"/>
-        <label for="F">M</label>
-        <select name="Estado civil:">
-            <option value="">**Selecione**</option>
-            <option value="solteiro">Solteiro</option>
-            <option value="casado">Casado</option>
-            <option value="outros">Outros</option>
-        </select>
-        <input type="submit" value="Enviar"/>
+        <label for="nome">Nome:</label>
+        <input type="text" required="required" name="nome_pessoa"
+               placeholder="Digite seu nome" id="nome" />
+        <br>
+        Sexo:
+        <label>
+            <input type="radio" name="sexo" value="masculino" /> M
+        </label>
+        <label>
+            <input type="radio" name="sexo" value="feminino" /> F
+        </label>
+        <br>
+        <label>Estado civil: 
+            <select name="estado">
+                <option>Selecione...</option>
+                <option value="solteiro">Solteiro</option>
+                <option value="casado">Casado</option>
+                <option value="outros">Outros</option>
+            </select>
+        </label>
+        <br>		
+        <input type="submit" value="Enviar" />	
+        <br>
     </form>
     <hr>
 
