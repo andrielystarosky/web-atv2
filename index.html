@@ -83,21 +83,43 @@
     </form>
     <hr>
     <p>9-</p>
-        <div style="border: 1px solid; padding:5px; margin: 5px; text-align: center; width:270px">
-            <form>
-              <div style="border: 1px solid; padding:5px; margin: 5px; width:250px">
-              <label for="usuario">Usuário:</label>
-              <input type="text" name="usuario"><br>
-              </div>
-              <div style="border: 1px solid; padding:5px; margin: 5px; width:250px ">
-              <label for="senha">&nbsp Senha:</label>
-              <input type="password" name="senha"><br>
-              </div>
-              <div style="border: 1px solid; padding:5px; margin: 5px; width:250px">
-              <input type="submit" value="Submit">
-              </div>
-            </form> 
+        <div style="display: flex; align-items: center; justify-content: center;">
+        <form action="/action_page.php">
+        <table style="width:250px; border:1px solid; padding:5px; text-align:center">
+          <tr>
+            <td margin="20" style="border:1px solid; padding:5px; margin:20px"><label for="usuario">Usuário:</label></td>
+            <td style="border:1px solid; padding:5px; margin:20px"><input type="text" name="usuario"></td>
+          </tr>
+          <tr>
+            <td style="border:1px solid; padding:5px; margin:20px"><label for="senha">&nbsp Senha:</label></td>
+            <td style="border:1px solid; padding:5px; margin:20px"><input type="password" name="senha"></td>
+          </tr>
+          <tr>
+            <td colspan="2" style="border:1px solid; padding:5px; margin:20px"><input type="submit" value="Submit"></td>
+          </tr>
+        </table>
+        </form> 
         </div>
+    <hr>
+    <p>10-</p>
+        <div  style="display: flex; align-items: center; justify-content: center;">
+        <form action="/action_page.php">
+        <table style="width:250px; border:1px solid; padding:5px; text-align:center">
+          <tr>
+            <td margin="20" style="border:1px solid; padding:5px; margin:20px"><label for="usuario">Usuário:</label></td>
+            <td style="border:1px solid; padding:5px; margin:20px"><input type="text" name="usuario"></td>
+            <td style="border:1px solid; padding:5px; margin:20px"><label for="senha">Senha:</label></td>
+            <td style="border:1px solid; padding:5px; margin:20px"><input type="password" name="senha"></td>
+            <td style="border:1px solid; padding:5px; margin:20px"><input type="submit" value="Submit"></td>
+          </tr>
+          <tr>
+            <td colspan="5" style="text-align:left"><input type="checkbox" name="salvar_info" value="usr.password">Lembrar usuário e senha</td>
+          </tr>
+        </table>
+        </form> 
+        </div>
+        <hr>
+
 
         
     
