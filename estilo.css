@@ -25,7 +25,7 @@ footer{
     min-height: 5%;  
 }
 
-p {
+p, span {
     text-align: justify;
 }
 
