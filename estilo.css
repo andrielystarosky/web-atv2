@@ -31,15 +31,43 @@ a:hover, a:active {
     color: rgba(51, 5, 60, 0.862);
 }
 
-p.bold {
+div.bold {
     font-weight: bold;
 }
 
-p.italic {
+span.italic {
     font-style: italic;
 }
 
-p.underline {
+span.underline {
     text-decoration: underline;
+}
+
+span.blue {
+    color: blue;
+}
+
+span.pink {
+    color: pink;
+}
+
+span.purple {
+    color: purple;
+}
+
+span.green {
+    color: green;
+}
+
+span.yellow {
+    color: yellow;
+}
+
+span.yellowgreen {
+    color: yellowgreen;
+}
+
+span.grey {
+    color: grey;
 }
 
