@@ -11,8 +11,18 @@ header, nav, footer, article, body {
     float: left;
 }
 
-footer{
+body {
+    min-height: 100vh;
+    display:flex; 
+    flex-direction:column; 
+}
+
+footer{ 
     margin-top: auto;
+}
+
+footer{ 
+    min-height: 5%;  
 }
 
 p {
