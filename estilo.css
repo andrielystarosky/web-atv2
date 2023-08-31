@@ -14,3 +14,15 @@ a:hover, a:active {
     color: pink;
 }
 
+p.bold {
+    font-weight: bold;
+}
+
+p.italic {
+    font-style: italic;
+}
+
+p.underline {
+    text-decoration: underline;
+}
+
