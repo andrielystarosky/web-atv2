@@ -5,7 +5,7 @@
 }
 
 header, nav, footer, article, body {
-    background-color: lightblue;
+    background-image: linear-gradient(to bottom right rgb(186, 220, 238), rgb(162, 235, 229), rgb(81, 177, 224), rgb(112, 145, 238));
     width: 100%;
     float: left;
 }
