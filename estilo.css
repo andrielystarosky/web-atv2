@@ -18,7 +18,7 @@ a {
 }
 
 a:hover, a:active {
-    color: pink;
+    color: rgba(51, 5, 60, 0.862);
 }
 
 p.bold {
