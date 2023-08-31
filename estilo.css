@@ -21,6 +21,10 @@ footer{
     margin-top: auto;
 }
 
+p {
+    text-align: justify;
+}
+
 a {
     color: black;
     font-style: italic;
