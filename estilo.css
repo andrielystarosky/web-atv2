@@ -1,12 +1,10 @@
 *{
-    margin:1%;
+    margin:10% transparent;
     padding: 0;
     font-family: 'Times New Roman', Times, serif;
 }
 
 header, nav, footer, article, body {
-    background-color: lightblue;
-    background-image: linear-gradient(to top left rgb(186, 220, 238), rgb(162, 235, 229), rgb(81, 177, 224), rgb(112, 145, 238));
     width: 100%;
     float: left;
 }
@@ -19,6 +17,7 @@ body {
 
 footer{ 
     margin-top: auto;
+    width: 99%;
 }
 
 footer{ 
@@ -44,44 +43,8 @@ a:hover, a:active {
     color: rgba(51, 5, 60, 0.862);
 }
 
-div.bold {
-    font-weight: bold;
-}
-
-span.italic {
-    font-style: italic;
-}
-
-span.underline {
-    text-decoration: underline;
-}
-
-span.blue {
-    color: blue;
-}
-
-span.pink {
-    color: pink;
-}
-
-span.purple {
-    color: purple;
-}
-
-span.green {
-    color: green;
-}
-
-span.yellow {
-    color: yellow;
-}
-
-span.yellowgreen {
-    color: yellowgreen;
-}
-
-span.grey {
-    color: grey;
+ol.mgn {
+    margin: 2%;
 }
 
 form.brdListraRed {
@@ -90,7 +53,64 @@ form.brdListraRed {
 }
 
 input.Enviar {
-    
+    padding: 1%;
+}
+
+.bkgWhite  {
+    background-color: white;
+}
+
+.bkgBlueGradient {
+    background-color: lightblue;
+    background-image: linear-gradient(to bottom right, rgb(186, 220, 238), rgb(162, 235, 229), rgb(81, 177, 224), rgb(112, 145, 238));
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.blue {
+    color: blue;
+}
+
+.pink {
+    color: pink;
+}
+
+.purple {
+    color: purple;
+}
+
+.green {
+    color: green;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.yellowgreen {
+    color: yellowgreen;
+}
+
+.grey {
+    color: grey;
+}
+
+.rd {
+    border-radius: 8px;
+}
+
+.brd {
+    border: solid black;
 }
 
 
