@@ -33,6 +33,27 @@ h1 {
     font-weight: bold;
 }
 
+table {
+    width: auto;
+    border: 1px solid;
+    margin: 1%;
+    padding: 1%;
+    text-align: center;
+}
+
+td {
+    border: 1px solid;
+    padding: 5px;
+    margin: 20px;
+    text-align: center;
+    align-items: center;
+    width: auto;
+}
+
+tr {
+    width: auto;
+}
+
 a {
     color: black;
     font-style: italic;
@@ -53,7 +74,7 @@ form.brdListraRed {
 }
 
 input.Enviar {
-    padding: 1%;
+    padding: 5%;
 }
 
 .bkgWhite  {
@@ -64,6 +85,8 @@ input.Enviar {
     background-color: lightblue;
     background-image: linear-gradient(to bottom right, rgb(186, 220, 238), rgb(162, 235, 229), rgb(81, 177, 224), rgb(112, 145, 238));
 }
+
+
 
 .bold {
     font-weight: bold;
