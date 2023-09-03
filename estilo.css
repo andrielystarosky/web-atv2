@@ -11,24 +11,22 @@ header, nav, footer, article, body {
 
 body {
     min-height: 100vh;
-    display:flex; 
+    /*display:flex; */
     flex-direction:column; 
 }
 
 footer{ 
     margin-top: auto;
     width: 99%;
-}
-
-footer{ 
     min-height: 5%;  
 }
+
 
 p, span {
     text-align: justify;
 }
 
-h1 {
+.h1 {
     font-size: 1em;
     font-weight: bold;
 }
@@ -64,7 +62,7 @@ a:hover, a:active {
     color: rgba(51, 5, 60, 0.862);
 }
 
-ol.mgn {
+.mgn {
     margin: 2%;
 }
 
@@ -136,4 +134,11 @@ input.Enviar {
     border: solid black;
 }
 
-
+.txtSizeDois {
+    font-size: 2em;
+}
+img.gif {
+    width: 5%;
+    height: 20px;
+    align-items: top;
+}
