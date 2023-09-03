@@ -84,3 +84,13 @@ span.grey {
     color: grey;
 }
 
+form.brdListraRed {
+  border-style: dashed;
+  border-color: red;
+}
+
+input.Enviar {
+    
+}
+
+
