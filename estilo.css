@@ -155,12 +155,15 @@ input.Enviar {
 
 .align_top {
     align-items: top;
+    text-align: top;
 }
 
 .align_bottom {
     align-items: bottom;
+    text-align: bottom;
 }
 
 .align_center {
     align-items: center;
+    text-align: center;
 }
