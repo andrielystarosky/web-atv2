@@ -137,8 +137,30 @@ input.Enviar {
 .txtSizeDois {
     font-size: 2em;
 }
-img.gif {
-    width: 5%;
-    height: 20px;
+
+#img50pt {
+    width: 50%;
     align-items: top;
+}
+
+#img25pt {
+    width: 25%;
+    align-items: top;
+}
+
+#img12pt {
+    width: 12%;
+    align-items: top;
+}
+
+.align_top {
+    align-items: top;
+}
+
+.align_bottom {
+    align-items: bottom;
+}
+
+.align_center {
+    align-items: center;
 }
