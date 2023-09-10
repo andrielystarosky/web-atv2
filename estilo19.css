@@ -1,0 +1,187 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+header, nav, footer, article, body {
+    width: 100%;
+    float: left;
+}
+
+body {
+    min-height: 100vh;
+    display:flex; 
+    flex-direction:column; 
+    justify-content: center;
+
+}
+
+footer{ 
+    margin-top: auto;
+    width: 100%;
+    min-height: 5%;  
+}
+
+
+p, span {
+    text-align: justify;
+}
+
+header {
+    text-align: center;
+    background-color: lightgray;
+    padding: 1%;
+}
+
+nav {
+    text-align: center;
+    background-color: gray;
+    padding: 0.5%;
+}
+
+section {
+    margin: 2%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2%;
+    color: grey;
+    font-weight: bold;
+}
+
+.menu {
+    margin: 2%;
+    font-size: 1em;
+}
+
+.publicidade {
+    text-align: center;
+    background-color: lightgray;
+}
+
+#logo {
+    width: 5%;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.d-none { display: none;}
+.d-block{ display: block;}
+.d-inline{ display: inline;}
+.d-inline-block{ display: inline-block;}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.col-padding-10 > div[class*="col"] {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.col-padding-20 > div[class*="col"] {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.col-padding-30 > div[class*="col"] {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.col-padding-40 > div[class*="col"] {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}        
+.col-12 {width: 100%;}
+
+.md-col-1 {width: 8.33%;}
+.md-col-2 {width: 16.66%;}
+.md-col-3 {width: 25%;}
+.md-col-4 {width: 33.33%;}
+.md-col-5 {width: 41.66%;}
+.md-col-6 {width: 50%;}
+.md-col-7 {width: 58.33%;}
+.md-col-8 {width: 66.66%;}
+.md-col-9 {width: 75%;}
+.md-col-10 {width: 83.33%;}
+.md-col-11 {width: 91.66%;}
+.md-col-12 {width: 100%;}
+
+.text {
+    text-align: center;
+    color: grey;
+}
+
+.textGray {
+    color: rgb(57, 56, 56);
+}
+
+.textWhite {
+    color: white;
+}
+
+.cont_img {
+    background-color: gray;
+    font-size: 1em;
+    color: white;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+.bkgLightGray {
+    background-color: lightgray;
+}
+
+.bkgGray {
+    background-color: gray;
+}
+
+
+#contato {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+}
+
+#footer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.logoFooter {
+    width: 2%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1%;
+}
+
