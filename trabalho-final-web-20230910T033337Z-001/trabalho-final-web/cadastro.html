@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>RUST - Pagina Cadastro</title>
+    <link type="text/css" rel="stylesheet" href="estilo.css">
+    <link type="text/css" rel="stylesheet" href="biblioteca.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+
+<nav class="barra-navegacao">
+    <a href="index.html" class="container-logo">
+        <img src="img/rust-logo.svg" alt="Logo da linguagem de programação RUST">
+    </a>
+    <a href="#" class="botao-menu">
+        <img src="img/icone-menu.png" alt="Icone que abre o menu">
+    </a>
+    <div class="barra-navegacao-links">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aprenda.html">Aprenda</a></li>
+            <li><a href="cadastro.html">Cadastro</a></li>
+            <li><a href="download.html">Download</a></li>
+            <li><a href="mais-informacoes.html">Mais informações</a></li>
+        </ul>
+    </div>
+</nav>
+<header>
+    <div class="container">
+        <h1 class="titulo-maior">Cadastre-se</h1>
+    </div>
+</header>
+<section>
+    <form class="formulario">
+        <label>Nome:<input type="text" required name="name" id="name" autofocus placeholder="Digite seu nome"/></label>
+        <br><br> 
+        <label>CPF:<input type="text" required name="cpf" id="cpf" placeholder="Digite seu CPF"/></label>
+        <br><br>
+        <h2>Endereço</h2>
+        <label>Rua:<input type="text" required name="rua" id="rua" placeholder="Informe sua Rua"/></label>
+        <br><br>
+        <label>Número:<input type="number" required name="numero" id="numero" placeholder="Informe o número da sua casa"/></label>
+        <br><br>
+        <label>Bairro:<input type="text" required name="bairro" id="bairro" placeholder="Informe seu Bairro"/></label>
+        <br><br>
+        <label>CEP:<input type="text" required name="cep" id="cep" placeholder="Digite seu CEP"/></label>
+        <br><br>
+        <label>Cidade:<input type="text" required name="cidade" id="cidade" placeholder="Informe sua cidade"/></label>
+        <br><br>
+        <label>Estado:<input type="text" required name="estado" id="estado" placeholder="Informe seu Estado"/></label>
+        <br>
+        <h2>Informações Complementares</h2>
+        <br>
+        <label>Sexo: 
+            <select required name="sex">
+                <option value="">Selecione</option>
+                <option value="FM">Feminino</option>
+                <option value="MC">Masculino</option>
+                <option value="ND">Não Informar</option>
+            </select>
+        </label>
+        <br><br>
+        <label class="Nascimento">Nascimento:<input type="date" required name="nascimento" id="nascimento" /></label>
+        <br><br>
+        <label>Celular:<input type="tel" required name="celular" id="celular" placeholder="Digite seu telefone"/></label>
+        <br><br>
+        <label>Telefone:<input type="tel" required name="telefone" id="telefone" placeholder="Informe seu telefone"/></label>
+        <br><br>
+        <label>Estado Civil:<input type="text" required name="estadocivil" id="estadocivil" placeholder="Informe seu estado civil"/></label>
+        <br><br>
+        <label>Senha:<input type="password" required name="senha" id="senha" placeholder="Informe sua senha"/></label>
+        <br><br>
+        <input type="submit" value="Enviar" />	
+        <input type="reset" value="Limpar"/>
+    </form>
+</section>

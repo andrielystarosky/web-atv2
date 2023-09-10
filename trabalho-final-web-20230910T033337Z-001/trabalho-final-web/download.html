@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>RUST - Pagina Principal</title>
+    <link type="text/css" rel="stylesheet" href="estilo.css">
+    <link type="text/css" rel="stylesheet" href="biblioteca.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+
+    <nav class="barra-navegacao">
+        <a href="index.html" class="container-logo">
+            <img src="img/rust-logo.svg" alt="Logo da linguagem de programação RUST">
+        </a>
+        <a href="#" class="botao-menu">
+            <img src="img/icone-menu.png" alt="Icone que abre o menu">
+        </a>
+        <div class="barra-navegacao-links">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aprenda.html">Aprenda</a></li>
+                <li><a href="cadastro.html">Cadastro</a></li>
+                <li><a href="download.html">Download</a></li>
+                <li><a href="mais-informacoes.html">Mais informações</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <main>
+        <header>
+            <div class="container">
+                <h1 class="titulo-maior">Instale o Rust</h1>
+            </div>
+        </header>
+        <section class="download-usando-russetup">
+            <article class="container">
+                <h3 class="text-white titulo-sublinhado-roxo d-inline-block">Usando rustup (Recomendado)</h3>
+                <p class="text-white">
+                    Parece que você está rodando Windows. Para começar a usar Rust, baixe o instalador, em seguida rode o programa e siga as instruções na tela. Você pode precisar instalar o <a href="https://visualstudio.microsoft.com/downloads/">Visual Studio C++ Build tools </a> se solicitado durante o processo de instalação.
+                </p>
+                <h3 class="text-white d-inline-block">Versões para windows:</h3>
+                <div class="row col-padding-20">
+                    <div class="col-12 sm-col-6 text-align-center">
+                        <a class="botao-download-grande text-align-center d-block" href="https://static.rust-lang.org/rustup/dist/x86_64-pc-windows-msvc/rustup-init.exe">BAIXAR RUST 32-BITS</a>
+                    </div>
+                    <div class="col-12 sm-col-6 text-align-center">
+                        <a class="botao-download-grande text-align-center d-block" href="https://static.rust-lang.org/rustup/dist/x86_64-pc-windows-msvc/rustup-init.exe">BAIXAR RUST 64-BITS</a>
+                    </div>
+                </div>
+
+                <h3 class="text-white d-inline-block">Windows Subsystem for Linux</h3>
+                <p class="text-white">Se você for um usuário do Windows Subsystem for Linux (WSL) execute o seguinte comando no terminal, e siga as instruções na tela para a instalação de Rust.</p>
+                
+                <div class="container-codigo-copiavel">
+                    <code class="copiavel">curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh</code>
+                </div>
+                <h3 class="text-white d-inline-block">Outras plataformas</h3>
+                <div class="overflow-auto">
+                    <table class="tabela-downloads">
+                        <thead>
+                            <tr>
+                                <th> <span>Plataforma</span></th>
+                                <th><span>Estavel (1.65.0)</span></th>
+                                <th><span>Beta</span></th>
+                                <th><span>nightly</span></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><code >aarch64-apple-darwin</code></td>
+                                <td><a href="https://static.rust-lang.org/dist/rust-1.65.0-aarch64-apple-darwin.pkg">pkg</a></td>
+                                <td><a href="https://static.rust-lang.org/dist/rust-beta-aarch64-apple-darwin.pkg">pkg</a></td>
+                                <td><a href="https://static.rust-lang.org/dist/rust-nightly-aarch64-apple-darwin.pkg">pkg</a></td>
+                            </tr>
+                            <tr>
+                                <td><code >aarch64-pc-windows-msvc</code></td>
+                                <td><a href="https://static.rust-lang.org/dist/rust-1.65.0-aarch64-pc-windows-msvc.msi">msi</a></a>
+                                </td>
+                                <td><a href="https://static.rust-lang.org/dist/rust-beta-aarch64-pc-windows-msvc.msi">msi</a></a></td>
+                                <td><a href="https://static.rust-lang.org/dist/rust-nightly-aarch64-pc-windows-msvc.msi">msi</a></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><code >aarch64-unknown-linux-gnu</code></td>
+                                <td><a href="https://static.rust-lang.org/dist/rust-1.65.0-aarch64-unknown-linux-gnu.tar.gz">tar.gz</a>
+                                </td>
+                                <td><a href="https://static.rust-lang.org/dist/rust-beta-aarch64-unknown-linux-gnu.tar.gz">tar.gz</a>
+                                </td>
+                                <td><a href="https://static.rust-lang.org/dist/rust-nightly-aarch64-unknown-linux-gnu.tar.gz">tar.gz</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </article>
+        </section>
+
+        <section class="começando-do-zero"> 
+            <article class="container">
+                <h3 class="titulo-sublinhado-vermelho d-inline-block">Video de Instalação</h3>
+                <h3 class="d-inline-block">Guia passo a passo</h3>
+                <h4>Iniciando</h4>
+                <p>Caso você esteja apenas começando com Rust e gostaria de um tutorial mais detalhado, confira este video sobre como começar.</p>
+                <div>
+                    <iframe width="100%"  src="https://www.youtube.com/embed/RtItQ3vnCR4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <h4>Gerenciamento de ferramentas com rustup</h4>
+                <p>Rust é instalado e gerenciado pela ferramenta <a href="https://github.com/rust-lang/rustup.rs">rustup</a>. Rust possui um rápido processo <a href="https://github.com/rust-lang/rfcs/blob/master/text/0507-release-channels.md">de lançamentos a cada 6 semanas</a> e suporta um grande número de plataformas, o que faz com que sempre existam uma grande quantidade de binários. <strong>rustup</strong> gerencia esses binários consistentemente em todas as plataformas suportadas por Rust, permitindo a instalação do Rust desde a versão beta ou nightly até mesmo suporte adiciona de componentes para cross-compilação.</p>
+                <p>Se você já instalou rustup no passado, você pode atualizar a instalação executando <code class="copiavel">rustup update</code>.</p>
+                <p>Para mais informações confira a documentação do <a href="https://github.com/rust-lang/rustup.rs/blob/master/README.md">rustup</a>.</p>
+                <h4>Configurando a variável de ambiente "PATH"</h4>
+                <p>No ambiente de desenvolvimento para Rust, todas as ferramentas são instaladas na pasta <code class="copiavel">~/.cargo/bin</code>  , onde você encontra todo o conjunto de ferramentas de Rust, incluindo <strong>rustc</strong>, <strong>cargo</strong>,e <strong>rustup</strong>.</p>
+                <p>Normalmente é comum para quem desenvolve Rust incluir esse diretório na <a href="https://en.wikipedia.org/wiki/PATH_(variable)">variável de ambiente PATH</a> . Durante a instalação do rustup, será feito uma tentativa de configurar a variável <strong>PATH</strong>. Por causa da diferença entre plataformas, terminais, e problemas no rustup, as mudanças feitas na variável <strong>PATH</strong> podem não ser aplicadas até que o console seja reiniciado, o usuário do sistema entre novamente, ou até mesmo nunca.</p>
+
+                <p>Se após a instalação a execução de  <code class="copiavel">rustc --version</code> for reportado um erro, há uma grande chance de que a configuração não foi aplicada.</p>
+                <h4>Desinstalar Rust</h4>
+                <p>Se a qualquer momento você desejar desinstalar Rust, você pode rodar <code class="copiavel">rustup self uninstall</code>. <br> Porém, vamos sentir sua falta😢! </p>
+            </article>
+        </section>
+    </main>
+
+    <footer class="altura-100px">
+
+    </footer>
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>

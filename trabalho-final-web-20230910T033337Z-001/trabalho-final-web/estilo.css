@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Fira Sans', helvetica;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+}
+
+h3 {
+    font-size: 1.6rem;
+}
+
+h4 {
+    font-size: 1.3rem;
+}
+
+section {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+h1.titulo-maior {
+    font-size: 4rem;
+    font-family: 'Alfa Slab One', serif;
+    font-weight: 300;
+    color: #000;
+    margin: 2rem 0;
+    margin-left: 10px
+}
+
+a {
+    text-decoration: underline;
+    color: inherit;
+    font-style: italic;
+}
+
+
+
+
+
+code.copiavel {
+    font-family: monospace;
+    background-color: #f5f5f5;
+    cursor: pointer;
+    color: black;
+}
+
+code.copiavel:hover {
+    background-color: #e5e5e5;
+}
+
+.container-codigo-copiavel {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    border-radius: 4px;
+    background-color: #f5f5f5;
+}
+
+iframe {
+    aspect-ratio: 16/9;
+}
+
+/* Barra de navegacao */
+.barra-navegacao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    transition: all 0.3s ease-out  ;
+    padding: 0px 10%;
+    background-color: #0b7261;
+}
+
+.container-logo {
+    font-size: 1.8em;
+    display: flex;
+    align-items: center;
+}
+
+.container-logo img {
+    width: 77px;
+}
+
+.barra-navegacao-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.barra-navegacao-links li {
+    list-style: none;
+    transition: all 0.3s ease-out  ;
+    border-radius: 10px;
+
+}
+
+.barra-navegacao-links li a {
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    display: block;
+    transition: all 0.3s ease-out  ;
+
+}
+
+.barra-navegacao-links li:hover {
+    background-color: rgb(230, 230, 230);
+    border-radius: 20px;
+}
+
+.barra-navegacao-links li:hover a {
+    color: rgb(0, 0, 0);
+}
+
+.botao-menu {
+    position: absolute;
+    top: 1.2rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 37px;
+}
+
+.botao-menu img {
+    width: 100%;
+}
+
+
+@media screen and (max-width: 800px) {
+    .botao-menu {
+        display: flex;
+    }
+
+    .barra-navegacao-links {
+        display: none;
+        width: 100%;
+    }
+
+    .barra-navegacao {
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: #0b7261;
+    }
+
+    .barra-navegacao-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .barra-navegacao-links li {
+        text-align: center;
+    }
+
+    .barra-navegacao-links.active {
+        display: flex;
+    }
+}
+
+
+/* Fim barra navegacao */
+
+/* Secao inicial introducao */
+
+.inicial-introducao {
+    /* text-align: end; */
+    animation: slide-down 2s ease-in-out;
+    overflow: hidden;
+}
+
+.inicial-introducao a {
+    width: 200px;
+    background: #297c29;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.inicial-introducao .logo-rust {
+    width: 100%;
+    padding: 100px 20px;
+}
+.inicial-introducao h1 {
+    font-size: 8rem;
+    margin-bottom: 0;
+    margin-top: 0;
+    line-height: 1.2;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.inicial-introducao p {
+    padding: 0px 77px;
+}
+
+
+
+.titulo-sublinhado-roxo {
+    border-bottom: 12px solid #2e2459;
+    padding-bottom: 10px;
+}
+
+.titulo-sublinhado-verde {
+    border-bottom: 12px solid #0b7261;
+    padding-bottom: 10px;
+}
+
+.titulo-sublinhado-vermelho {
+    border-bottom: 12px solid #a72145;
+    padding-bottom: 10px;
+}
+
+
+/* Fim Secao inicial introducao */
+
+
+/* Inicio secao inicial por que rust */
+
+
+.inicial-porque-rust {
+    background-color: #0b7261;
+}
+
+
+/* FIm secao inicial por que rust */
+
+/* Inicio secao inicial construa com rust */
+
+
+.inicial-construa-com-rust {
+    background-color: #2e2459;
+}
+
+
+/* FIm secao inicial construa com rust */
+
+
+
+/*Formulário Cadastro*/
+
+ .formulario{
+    width:50%;
+    min-width: 350;
+    background-color: #0b7261;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px rgba(0,0,0);
+    margin: 10px auto;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+input {
+    min-width: 200px;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: 1 px solid gray;
+    margin-top: 10px;
+    height: 30px;
+    padding-left: 10px;
+}
+.formulario #name{
+    margin-right: 20px;
+}
+
+.formulario #numero{
+    margin-right: 27px;
+}
+.formulario #bairro {
+    margin-right: 10px;
+}
+.formulario #cep{
+    margin-left: 10px;
+}
+.formulario #cidade{
+    margin-right: 10px;
+}
+.formulario #estado{
+    margin-right: 10px;
+}
+.formulario #nascimento{
+    margin-right: 80px;
+}
+.Nascimento{
+    margin-left: 40px;
+}
+.formulario #telefone{
+    margin-right: 10px;
+}
+.formulario #estadocivil{
+    margin-right: 35px;
+}
+.formulario #senha{
+    margin-left: 5px;
+}
+
+/* Fim formulario Cadastro */
+
+/* Download - usando russetup */
+
+.download-usando-russetup {
+    background-color: #0b7261;
+}
+
+.botao-download-grande {
+    background-color: #2e2459;
+    color: white;
+    line-height: 50px;
+    transition: all 0.2s ease-out;
+    text-decoration: none;
+
+}
+.botao-download-grande:hover {
+    background-color: #1f183f;
+}
+
+.tabela-downloads {
+    border: 1px solid #000;
+    background-color: #f5f5f5;
+    -webkit-border-horizontal-spacing: 27px;
+}
+
+.tabela-downloads th {
+    text-align: start;
+}
+
+.tabela-downloads td > *, .tabela-downloads th {
+    margin-right: 50px;
+}

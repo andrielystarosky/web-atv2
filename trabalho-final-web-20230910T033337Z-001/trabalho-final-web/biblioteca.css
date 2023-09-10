@@ -1,0 +1,424 @@
+/* Biblioteca */
+
+
+
+
+.container {
+    max-width: 1128px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.row-justify-space-around {
+    justify-content: space-around;
+}
+
+.row-justify-space-between {
+    justify-content: space-between;
+}
+.row-justify-flex-start {
+    justify-content: flex-start;
+}
+.row-justify-flex-end {
+    justify-content: flex-end;
+}
+
+.row-align-baseline{
+    align-content: baseline;
+}
+.row-align-flex-end{
+    align-content: flex-end;
+}
+.row-align-flex-start{
+    align-content: flex-start;
+}
+.row-align-center{
+    align-content: center;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+}
+
+.row-not-reverse {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.col-padding-10 > div[class*="col"] {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.col-padding-20 > div[class*="col"] {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.col-padding-30 > div[class*="col"] {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.col-padding-40 > div[class*="col"] {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.bg-amarelo {
+    background-color: yellow;
+}
+
+
+.bg-vermelho {
+    background-color: red;
+}
+
+.bg-verde {
+    background-color: green;
+}
+
+.bg-azul {
+    background-color: blue;
+}
+
+
+.border-amarelo {
+    border: 1px solid yellow;
+}
+
+
+.border-vermelho {
+    border: 1px solid red;
+
+}
+
+.border-verde {
+    border: 1px solid green;
+
+}
+
+.border-azul {
+    border: 1px solid blue;
+
+}
+
+
+.text-align-left {
+    text-align: left;
+}
+
+.text-align-right {
+    text-align: right;
+}
+.text-align-center {
+    text-align: center;
+}
+
+.text-align-justificado {
+    text-align: justify;
+}
+
+
+.text-white {
+    color: white;
+}
+
+.text-black {
+    color: black;
+}
+
+.altura-100px {
+    height: 100px;
+}
+
+.altura-50px {
+    height: 50px;
+}
+
+.altura-200px {
+    height: 200px;
+}
+
+.altura-25pc {
+    height: 25%;
+}
+
+.altura-50pc {
+    height:50%;
+}
+
+.altura-75pc {
+    height: 75%;
+}
+
+.altura-100pc {
+    height: 100%;
+}
+
+.largura-100px {
+    width: 100px;
+}
+
+.largura-50px {
+    width: 50px;
+}
+
+.largura-200px {
+    width: 200px;
+}
+
+.largura-25pc {
+    width: 25%;
+}
+
+.largura-50pc {
+    width:50%;
+}
+
+.largura-75pc {
+    width: 75%;
+}
+
+.largura-100pc {
+    width: 100%;
+}
+
+.margin-top-10px {
+    margin-top: 10px;
+}
+
+.margin-top-25px {
+    margin-top: 25px;
+}
+
+.margin-top-50px {
+    margin-top: 50px;
+}
+
+.margin-top-75px {
+    margin-top: 75px;
+}
+
+.margin-top-100px {
+    margin-top: 100px;
+}
+
+.margin-right-10px {
+    margin-right: 10px;
+}
+
+.margin-right-25px {
+    margin-right: 25px;
+}
+
+.margin-right-50px {
+    margin-right: 50px;
+}
+
+.margin-right-75px {
+    margin-right: 75px;
+}
+
+.margin-right-100px {
+    margin-right: 100px;
+}
+
+.margin-left-10px {
+    margin-left: 10px;
+}
+
+.margin-left-25px {
+    margin-left: 25px;
+}
+
+.margin-left-50px {
+    margin-left: 50px;
+}
+
+.margin-left-75px {
+    margin-left: 75px;
+}
+
+.margin-left-100px {
+    margin-left: 100px;
+}
+
+.margin-bottom-10px {
+    margin-bottom: 10px;
+}
+
+.margin-bottom-25px {
+    margin-bottom: 25px;
+}
+
+.margin-bottom-50px {
+    margin-bottom: 50px;
+}
+
+.margin-bottom-75px {
+    margin-bottom: 75px;
+}
+
+.margin-bottom-100px {
+    margin-bottom: 100px;
+}
+
+.overflow-auto {
+    overflow-x: auto;
+}
+
+/* Tamanhos de tela */
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.d-none { display: none;}
+.d-block{ display: block;}
+.d-inline{ display: inline;}
+.d-inline-block{ display: inline-block;}
+
+/* Dispositivos pequenos (576px ou mais) SM */
+@media only screen and (min-width: 576px) { 
+
+    .sm-col-1 {width: 8.33%;}
+    .sm-col-2 {width: 16.66%;}
+    .sm-col-3 {width: 25%;}
+    .sm-col-4 {width: 33.33%;}
+    .sm-col-5 {width: 41.66%;}
+    .sm-col-6 {width: 50%;}
+    .sm-col-7 {width: 58.33%;}
+    .sm-col-8 {width: 66.66%;}
+    .sm-col-9 {width: 75%;}
+    .sm-col-10 {width: 83.33%;}
+    .sm-col-11 {width: 91.66%;}
+    .sm-col-12 {width: 100%;}
+
+    .sm-d-none { display: none;}
+    .sm-d-block{ display: block;}
+    .sm-d-inline{ display: inline;}
+    .sm-d-inline-block{ display: inline-block;}
+
+    .sm-row-reverse {flex-direction: row-reverse;}
+    .sm-row-not-reverse {flex-direction: row; flex-wrap: wrap;}
+
+ }
+
+/* // Dispositivos medios (tablets, 768px ou mais) MD */
+@media only screen and (min-width: 992px) { 
+    .md-col-1 {width: 8.33%;}
+    .md-col-2 {width: 16.66%;}
+    .md-col-3 {width: 25%;}
+    .md-col-4 {width: 33.33%;}
+    .md-col-5 {width: 41.66%;}
+    .md-col-6 {width: 50%;}
+    .md-col-7 {width: 58.33%;}
+    .md-col-8 {width: 66.66%;}
+    .md-col-9 {width: 75%;}
+    .md-col-10 {width: 83.33%;}
+    .md-col-11 {width: 91.66%;}
+    .md-col-12 {width: 100%;}
+
+    .md-d-none { display: none;}
+    .md-d-block{ display: block;}
+    .md-d-inline{ display: inline;}
+    .md-d-inline-block{ display: inline-block;}
+
+    .md-row-reverse {flex-direction: row-reverse; flex-wrap: wrap-reverse;}
+    .md-row-not-reverse {flex-direction: row; flex-wrap: wrap;}
+
+
+ }
+
+/* // Dispositivos grandes (desktops, 992px ou mais) LG */
+@media only screen and (min-width: 992px) { 
+
+    .lupa-container > div {
+        transition: all 0.5s;
+    }
+    
+    .lupa-container:hover > div:not(:hover) {
+        transform: scale(0.95);
+        opacity: 0.7;
+    }
+    
+    .lupa-container:hover > div:hover {
+        transform: scale(1.1);
+        cursor: default;
+    }
+
+    .lg-col-1 {width: 8.33%;}
+    .lg-col-2 {width: 16.66%;}
+    .lg-col-3 {width: 25%;}
+    .lg-col-4 {width: 33.33%;}
+    .lg-col-5 {width: 41.66%;}
+    .lg-col-6 {width: 50%;}
+    .lg-col-7 {width: 58.33%;}
+    .lg-col-8 {width: 66.66%;}
+    .lg-col-9 {width: 75%;}
+    .lg-col-10 {width: 83.33%;}
+    .lg-col-11 {width: 91.66%;}
+    .lg-col-12 {width: 100%;}
+
+    .lg-d-none { display: none;}
+    .lg-d-block{ display: block;}
+    .lg-d-inline{ display: inline;}
+    .lg-d-inline-block{ display: inline-block;}
+
+    .lg-row-reverse {flex-direction: row-reverse; flex-wrap: wrap-reverse;}
+    .lg-row-not-reverse {flex-direction: row; flex-wrap: wrap;}
+
+ }
+
+/* // Dispositivos extra grandes (large desktops, 1200px ou mais) XL */
+@media only screen and (min-width: 1200px) { 
+    .xl-col-1 {width: 8.33%;}
+    .xl-col-2 {width: 16.66%;}
+    .xl-col-3 {width: 25%;}
+    .xl-col-4 {width: 33.33%;}
+    .xl-col-5 {width: 41.66%;}
+    .xl-col-6 {width: 50%;}
+    .xl-col-7 {width: 58.33%;}
+    .xl-col-8 {width: 66.66%;}
+    .xl-col-9 {width: 75%;}
+    .xl-col-10 {width: 83.33%;}
+    .xl-col-11 {width: 91.66%;}
+    .xl-col-12 {width: 100%;}
+
+    .xl-d-none { display: none;}
+    .xl-d-block{ display: block;}
+    .xl-d-inline{ display: inline;}
+    .xl-d-inline-block{ display: inline-block;}
+
+    .xl-row-reverse {flex-direction: row-reverse; flex-wrap: wrap-reverse;}
+    .xl-row-not-reverse {flex-direction: row; flex-wrap: wrap;}
+
+ }
+
+
+
+
+
+
+
+
+
+/* Fim tamanhos de tela */
+
+/* Fim bibliteca */
