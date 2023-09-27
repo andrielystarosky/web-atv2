@@ -65,7 +65,7 @@ h1 {
 }
 
 #logo {
-    width: 5%;
+    width: 50%;
 }
 
 .container {
@@ -188,4 +188,51 @@ h1 {
 #home {
     display: flex;
     justify-content: left;
+}
+
+.alignRight {
+    justify-content: right;
+}
+
+.alignTop {
+    align-items: flex-start;
+}
+
+.barra-navegacao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    transition: all 0.3s ease-out  ;
+    padding: 0px 10%;
+    background-color: white;
+}
+
+.container-logo {
+    font-size: 1.8em;
+    display: flex;
+    align-items: center;
+}
+
+.botao-menu {
+    position: absolute;
+    top: 1.2rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 37px;
+}
+
+
+.barra-navegacao-links {
+    display: none;
+    width: 100%;
+    flex-direction: column
+}
+
+.barra-navegacao {
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: white;
 }
